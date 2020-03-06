@@ -1,0 +1,13 @@
+<div class="dropdown-content">
+                  <a href="#">Salted</a>
+                  <a href="#">Candied</a>
+                  <a href="#">Roasted</a>
+                  <a href="#">Spicy</a>
+                </div>
+
+                <div class="dropdown-content">
+                  <a href="#">4 oz.</a>
+                  <a href="#">8 oz.</a>
+                  <a href="#">10 oz.</a>
+                  <a href="#">12 oz.</a>
+                </div>

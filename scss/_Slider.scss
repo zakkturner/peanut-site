@@ -1,0 +1,33 @@
+#Slider {
+  width: 100%;
+  #carousel {
+    max-height: 714px;
+    .carousel-indicators {
+      .active {
+        background-color: $deepred;
+      }
+      li {
+        &:hover {
+          background-color: $deepred;
+        }
+      }
+    }
+    .carousel-inner {
+      max-height: 714px;
+
+      overflow: hidden;
+      .carousel-item {
+      }
+    }
+  }
+}
+
+@media #{$breakpoint-small} {
+  #Slider {
+    #carousel {
+      .carousel-inner {
+        max-height: 140px;
+      }
+    }
+  }
+}
