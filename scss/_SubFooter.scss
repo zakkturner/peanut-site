@@ -43,36 +43,5 @@
 }
 
 @media #{$breakpoint-small} {
-  #Sub-Footer {
-    width: 100%;
-    height: 500px;
-    .footer-container {
-      display: block;
-      .footer-info {
-        margin-right: 20px;
-        line-height: 1;
-        margin-bottom: 20px;
-        h2 {
-          font-size: 20px;
-        }
-        ul {
-          li {
-            font-size: 12px;
-          }
-        }
-        address {
-          font-size: 12px;
-        }
-        span {
-          font-size: 12px;
-        }
-        .social-links {
-          margin-top: 20px;
-        }
-      }
-      .badges {
-        display: none;
-      }
-    }
-  }
+  
 }

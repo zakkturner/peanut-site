@@ -22,12 +22,3 @@
   }
 }
 
-@media #{$breakpoint-small} {
-  #Slider {
-    #carousel {
-      .carousel-inner {
-        max-height: 140px;
-      }
-    }
-  }
-}

@@ -134,6 +134,35 @@ body {
   }
 }
 
+@media #{$breakpoint-rotate} {
+  #Top-Menu {
+    .container {
+      .menu {
+        ul {
+          li {
+            a {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #Main {
+    .container {
+      .categories {
+        .category-box {
+          height: 300px;
+          .pic-link {
+            width: 320px;
+            height: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+
 // Tablets
 
 @media #{$breakpoint-medium} {
